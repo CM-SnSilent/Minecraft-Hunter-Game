@@ -1,0 +1,1 @@
+execute as @a[tag=temp] at @s run tag @s add time

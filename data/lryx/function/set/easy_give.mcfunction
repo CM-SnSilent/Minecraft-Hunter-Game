@@ -1,0 +1,9 @@
+give @a[tag=team.2] minecraft:stone_sword
+give @a[tag=team.2] minecraft:cobblestone 64
+give @a[tag=team.2] minecraft:stone_axe
+give @a[tag=team.2] minecraft:stone_pickaxe
+give @a[tag=team.2] minecraft:fishing_rod
+give @a[tag=team.2] minecraft:water_bucket
+give @a[tag=team.2] minecraft:golden_carrot 64
+give @a[tag=team.2] minecraft:totem_of_undying
+give @a[tag=team.2] minecraft:shield

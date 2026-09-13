@@ -1,0 +1,10 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+
+gamerule doMobLoot false
+gamerule fallDamage false
+gamerule keepInventory true
+gamerule doMobSpawning false
+gamerule doWeatherCycle false
+gamerule doDaylightCycle false
+gamerule doImmediateRespawn true

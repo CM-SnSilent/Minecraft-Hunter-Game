@@ -1,0 +1,21 @@
+{
+    "hidden": true,
+    "criteria": {
+        "kill_dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kill_dragon"
+        ]
+    ],
+    "rewards": {
+        "function": "lryx:game/win"
+    }
+}
