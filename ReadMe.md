@@ -1,4 +1,4 @@
-==============================================================================================
+============================================================================
 
 Q: Source Material
 A: https://minecraft.wiki/w/Minecraft_Wiki
@@ -16,7 +16,7 @@ Translator:
 [SnSilent]: zh_cn zh_hk zh_tw
 [AI Translate]: en_us ja_jp
 
-==============================================================================================
+============================================================================
 
 Introduction:
 The Hunter game is divided into two teams, Hunter and Runner.
@@ -46,4 +46,4 @@ Placing the mouse over an option will prompt you with what it does:
 [Change Mode] : The Runner will switch roles with each other every two minutes, Disabled by default;
 [Game Starts] : Um...it's just starting the game.
 
-==============================================================================================
+============================================================================
