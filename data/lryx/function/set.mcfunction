@@ -1,5 +1,6 @@
 gamerule command_block_output false
 gamerule send_command_feedback false
+
 gamerule locator_bar false
 gamerule mob_drops false
 gamerule spawn_mobs false

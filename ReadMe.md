@@ -8,7 +8,7 @@ Runner: When there are multiple Runner, death becomes a spectator. With only one
 ## Load:
 Do not install Forge on both the client and server, and do not decompress the datapack, otherwise it cannot be loaded\
 There is a <ins>LanguagePack.zip</ins> in the <ins>HunterGame.zip</ins>, put it in your <ins>Resourcepacks</ins> folder and load it, please also send it to other players\
-Put the datapack into the <ins>datapacks</ins> folder of your save, then enter the world, path: <ins>.minecraft\saves\YourSave\datapacks\ </ins>
+Put the datapack into the <ins>datapacks</ins> folder of your save, then enter the world, path: <ins>.minecraft\saves\YourSave\datapacks\</ins>
 
 ## Warning:
 Please create a new save to use when playing, and do not play the same save for the second time\

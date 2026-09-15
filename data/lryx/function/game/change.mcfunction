@@ -1,6 +1,6 @@
 execute as @r run function lryx:change/r_on
-execute as Creeper run function lryx:set/team_on
 execute as SnSilent run function lryx:set/team_on
+execute as @r[name=!SnSilent] run function lryx:set/team_on
 
 function lryx:game/start
 give Creeper minecraft:acacia_boat 30

@@ -11,7 +11,7 @@ scoreboard players enable @a t.change
 scoreboard players enable @a t.reload
 scoreboard players enable @a t.glowing
 
-execute as @a[scores={t.reload=1..}] run function lryx:load
+execute as @a[scores={t.reload=1..}] run reload
 execute as @a[scores={t.pvp=1}] run function lryx:set/pvp_on
 execute as @a[scores={t.easy=1}] run function lryx:set/easy_on
 execute as @a[scores={t.item=1}] run function lryx:set/item_on

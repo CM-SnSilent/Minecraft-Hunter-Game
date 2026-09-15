@@ -34,7 +34,7 @@ function lryx:set/create_on
 schedule function lryx:tellraw 2s
 schedule function lryx:tellraw_21 2s
 
-tellraw @a {"translate":"猎人游戏1.5-1.21+","color":"green"}
+tellraw @a {"translate":"猎人游戏1.5-1.21+","color":"green","bold":true}
 execute as @a at @s run playsound minecraft:entity.experience_orb.pickup master @a
 
 #==================================================================================================================

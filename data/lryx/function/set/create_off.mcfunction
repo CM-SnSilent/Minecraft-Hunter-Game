@@ -62,6 +62,7 @@ tag @a remove track.6
 tag @a remove track.7
 tag @a remove track.8
 tag @a remove track.9
+tag @a remove track.10
 
 data remove storage track.o1 Items
 data remove storage track.n1 Items
@@ -90,6 +91,9 @@ data remove storage track.e8 Items
 data remove storage track.o9 Items
 data remove storage track.n9 Items
 data remove storage track.e9 Items
+data remove storage track.o10 Items
+data remove storage track.n10 Items
+data remove storage track.e10 Items
 
 execute in minecraft:overworld run setblock 0 0 0 minecraft:air
 execute in minecraft:the_nether run setblock 0 0 0 minecraft:air

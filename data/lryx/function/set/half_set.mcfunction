@@ -27,3 +27,8 @@ execute if score play.js num.js matches 8 as @a[scores={n.team=1},limit=8,sort=r
 
 execute if score play.js num.js matches 9 as @a[scores={n.team=0},limit=9,sort=random,tag=!team.1] run scoreboard players add @s n.team 1
 execute if score play.js num.js matches 9 as @a[scores={n.team=1},limit=9,sort=random] run scoreboard players add play.n lw.runner 1
+
+execute if score play.js num.js matches 10 as @a[scores={n.team=0},limit=10,sort=random,tag=!team.1] run scoreboard players add @s n.team 1
+execute if score play.js num.js matches 10 as @a[scores={n.team=1},limit=10,sort=random] run scoreboard players add play.n lw.runner 1
+
+execute if score play.js num.js matches 11.. run function lryx:set/half_off
