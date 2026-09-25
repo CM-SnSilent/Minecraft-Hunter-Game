@@ -4,4 +4,4 @@ scoreboard players add play.n lw.runner 1
 execute if entity @s[tag=spect] run function lryx:set/spect_off
 
 execute as @a at @s run playsound minecraft:entity.experience_orb.pickup master @a
-tellraw @a [{"selector":"@s","separator":{"text":""}},{"translate":"已选定自己为猎物","color":"green"}]
+tellraw @a [{"selector":"@s","separator":{"text":""}},{"text":" "},{"translate":"已启用 ","color":"red"},{"translate":"[成为猎物] ","color":"yellow"}]

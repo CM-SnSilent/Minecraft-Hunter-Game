@@ -2,7 +2,7 @@
 
 scoreboard players set change.js time 0
 tag @a remove changer.0
-tellraw @a [{"translate":"当前猎物：","color":"red"},{"selector":"@a[tag=changer.2]","color":"white"}]
+tellraw @a [{"translate":"当前猎物: ","color":"red"},{"selector":"@a[tag=changer.2]","color":"white"}]
 execute as @a[tag=changer.2] positioned as @a[tag=changer.1] run tp @a[tag=changer.2,limit=1] @a[tag=changer.1,limit=1]
 gamemode survival @a[tag=changer.2]
 

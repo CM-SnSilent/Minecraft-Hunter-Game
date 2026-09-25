@@ -30,6 +30,7 @@ execute as @a[scores={t.half=2}] run function lryx:set/half_off
 execute as @a[scores={t.team=2}] run function lryx:set/team_off
 execute as @a[scores={t.spect=2}] run function lryx:set/spect_off
 execute as @a[scores={t.spect=2}] run function lryx:set/reborn_off
+execute as @a[scores={t.reborn=2}] run function lryx:set/reborn_off
 execute as @a[scores={t.change=2}] run function lryx:change/r_off
 execute as @a[scores={t.glowing=2}] run function lryx:set/glowing_off
 

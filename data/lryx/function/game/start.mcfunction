@@ -54,6 +54,8 @@ execute if entity @a[tag=spect] unless entity @a[tag=team.2] run reload
 execute if entity @a[tag=team.2] unless entity @a[tag=team.1] run reload
 execute if entity @a[tag=team.1] unless entity @a[tag=team.2] run reload
 execute if entity @a[scores={n.change=1}] if entity @a[tag=track.3] run reload
+execute if entity @a[scores={n.change=1}] unless entity @a[tag=changer.1] run reload
+execute if entity @a[scores={n.change=1}] unless entity @a[tag=changer.2] run reload
 
 execute if entity @a[scores={n.easy=1}] run function lryx:set/easy_give
 execute if entity @a[scores={n.game=1}] if entity @a[scores={lr.hunter=1}] run tellraw @a {"translate":"猎人全部死亡则猎物获胜","color":"yellow"}

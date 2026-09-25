@@ -5,5 +5,5 @@ scoreboard players set play.js num.js 0
 
 tag @a add num.js
 
-tellraw @a {"translate":"已启用-[交换模式]-","color":"green"}
 execute as @a at @s run playsound minecraft:entity.experience_orb.pickup master @a
+tellraw @a [{"translate":"已启用 ","color":"green"},{"translate":"[交换模式] ","color":"yellow"}]

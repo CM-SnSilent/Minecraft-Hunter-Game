@@ -4,4 +4,4 @@ scoreboard players set @s n.team 0
 execute if score play.n lw.runner matches 1.. run scoreboard players remove play.n lw.runner 1
 
 execute as @a at @s run playsound minecraft:entity.experience_orb.pickup master @a
-tellraw @a [{"selector":"@s","separator":{"text":""}},{"translate":"不指定自己为猎物","color":"red"}]
+tellraw @a [{"selector":"@s","separator":{"text":""}},{"text":" "},{"translate":"已关闭 ","color":"red"},{"translate":"[成为猎物] ","color":"yellow"}]
